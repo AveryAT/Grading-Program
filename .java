@@ -44,11 +44,6 @@ public class StudentGrade
     private int percentGrade;
     private char letterGrade;
 
-
-    // A new keyboard object is created in each method that uses it.
-    // Otherwise there would be problems with nextLine, as described
-    // in the Gotcha in Chapter 2.
-
     private Scanner keyboard;
 
     /**
